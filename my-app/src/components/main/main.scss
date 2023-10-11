@@ -1,0 +1,110 @@
+@import '/src/css/styles.css';
+
+@mixin def($f, $a, $b){
+    font-weight: $f;
+    font-size: $a;
+    line-height: $b;
+}
+
+.main-first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1120px;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+.hello-right {
+    display: flex;
+}
+.hello-left {
+    display: flex;
+    flex-direction: column;
+}
+.btns-first {
+    display: flex;
+    gap: 1rem;
+}
+.try-for-free {
+    display: inline-block; 
+    background: #3C72FF; 
+    color: #fff; 
+    padding: 0.7rem 4.375rem; 
+    text-decoration: none; 
+    border-radius: 17px;
+    @include def(700, 24px, 28.18px)
+}
+.features {
+    display: inline-block; 
+    background: #E4ECFF; 
+    color: #3C72FF; 
+    padding: 0.7rem 1.5rem; 
+    text-decoration: none; 
+    border-radius: 6px;
+    @include def(700, 24px, 28.18px)
+}
+.daltter-main {
+    margin-top: 0;
+    margin-bottom: 12px;
+    @include def(800, 76px, 79.34px)
+}
+.email-main {
+    margin-bottom: 29px;
+    @include def(600, 20px, 21.68px)
+}
+.daltter-text {
+    color: #3C72FF;
+    font-style: italic;
+    font-weight: 800;
+}
+
+
+
+
+.main-second {
+    display: flex;
+    
+    justify-content: space-between;
+    max-width: 1120px;
+    margin: 0 auto;
+    margin-top: 180px;
+}
+.second-left {
+    display: flex;
+    padding-bottom: 7.375rem;
+}
+.second-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    padding-bottom: 11.813rem;
+}
+.second-main {
+    margin: 0;
+    @include def(800, 64px, 66.82px)
+}
+.second-text {
+    margin: 0;
+    @include def(600, 20px, 22.98px)
+}
+.second-try-button {
+    display: inline-block; 
+    background: #3C72FF; 
+    color: #fff; 
+    padding: 0.7rem 1.5rem; 
+    text-decoration: none; 
+    border-radius: 17px;
+    @include def(700, 24px, 28.18px)
+}
+
+
+
+.main-third {
+    display: flex;
+    justify-content: center;
+    & h1{
+        @include def(800, 48px, 50.11px);
+        color: #3C72FF;
+    }
+}
