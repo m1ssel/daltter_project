@@ -90,6 +90,7 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   max-width: 1120px;
+  max-height: 507px;
   margin: 0 auto;
   margin-top: 180px;
 }
@@ -98,7 +99,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-bottom: 7.375rem;
 }
 
 .second-right {
@@ -113,7 +113,10 @@
       -ms-flex-pack: center;
           justify-content: center;
   gap: 2rem;
-  padding-bottom: 11.813rem;
+}
+.second-right span {
+  color: #3C72FF;
+  font-style: italic;
 }
 
 .second-main {
@@ -134,7 +137,7 @@
   display: inline-block;
   background: #3C72FF;
   color: #fff;
-  padding: 0.7rem 1.5rem;
+  padding: 0.7rem 4rem;
   text-decoration: none;
   border-radius: 17px;
   font-weight: 700;
@@ -155,4 +158,81 @@
   font-size: 48px;
   line-height: 50.11px;
   color: #3C72FF;
+  margin-top: 197px;
+}
+
+.main-fourth {
+  margin-top: 172px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.main-fourth h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 41.76px;
+}
+.main-fourth p {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 41.76px;
+}
+
+.leave-email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 21px;
+}
+
+.email-address {
+  background-color: #E4ECFF;
+  border-top-left-radius: 27px;
+  border-bottom-left-radius: 27px;
+  border: none;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 29.23px;
+  padding: 1rem 2rem;
+  color: rgba(0, 0, 0, 0.476);
+}
+
+.email-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.email-input a {
+  color: #fff;
+  text-decoration: none;
+  background: #779DFF;
+  border-top-right-radius: 27px;
+  border-bottom-right-radius: 27px;
+  padding: 1rem 1.5rem;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 37.58px;
+  font-family: "Inter", sans-serif;
 }

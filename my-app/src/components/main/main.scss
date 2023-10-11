@@ -63,22 +63,24 @@
 
 .main-second {
     display: flex;
-    
     justify-content: space-between;
     max-width: 1120px;
+    max-height: 507px;
     margin: 0 auto;
     margin-top: 180px;
 }
 .second-left {
     display: flex;
-    padding-bottom: 7.375rem;
 }
 .second-right {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 2rem;
-    padding-bottom: 11.813rem;
+    & span{
+        color: #3C72FF;
+        font-style: italic;
+    }
 }
 .second-main {
     margin: 0;
@@ -92,7 +94,7 @@
     display: inline-block; 
     background: #3C72FF; 
     color: #fff; 
-    padding: 0.7rem 1.5rem; 
+    padding: 0.7rem 4rem; 
     text-decoration: none; 
     border-radius: 17px;
     @include def(700, 24px, 28.18px)
@@ -106,5 +108,56 @@
     & h1{
         @include def(800, 48px, 50.11px);
         color: #3C72FF;
+        margin-top: 197px;
+    }
+}
+
+
+
+
+
+
+.main-fourth {
+    margin-top: 172px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    & h1 {
+        @include def(700, 40px, 41.76px);
+    }
+    & p{
+        @include def(500, 40px, 41.76px);
+    }
+}
+.leave-email {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    gap: 21px;
+}
+.email-address {
+    background-color: #E4ECFF;
+    border-top-left-radius: 27px;
+    border-bottom-left-radius: 27px;
+    border: none;
+    @include def(500, 28px, 29.23px);
+    padding: 1rem 2rem;
+    color: rgba(0, 0, 0, 0.476);
+}
+.email-input {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    & a{
+        color: #fff;
+        text-decoration: none;
+        background: #779DFF;
+        border-top-right-radius: 27px;
+        border-bottom-right-radius: 27px;
+        padding: 1rem 1.5rem;
+        @include def(900, 36px, 37.58px);
+        font-family: 'Inter', sans-serif;
     }
 }
