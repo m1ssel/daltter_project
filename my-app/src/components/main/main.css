@@ -152,6 +152,10 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .main-third h1 {
   font-weight: 800;
@@ -159,6 +163,186 @@
   line-height: 50.11px;
   color: #3C72FF;
   margin-top: 197px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.card-container {
+  margin-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 2rem;
+}
+
+.card1 h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 41.76px;
+  margin: 0;
+}
+
+.card1-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 15px;
+  width: 351px;
+  height: auto;
+  background-color: #E4ECFF;
+  border-radius: 48px;
+  text-align: center;
+}
+
+.price-addit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+.price-addit .price-number {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20.88px;
+  text-decoration: line-through;
+  color: #7A8AA9;
+  margin: 0;
+}
+.price-addit .price-percent {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16.7px;
+  color: #67799E;
+  background-color: #BDC9E7;
+  padding: 0.2rem;
+  border-radius: 20px;
+  margin: 0;
+}
+
+.price-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.price-main .text-1 {
+  margin-top: 6px;
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 700;
+  color: #1F2D49;
+}
+.price-main .text-2 {
+  font-family: "Inter";
+  font-size: 40px;
+  font-weight: 700;
+  color: #1F2D49;
+}
+
+.plans-container {
+  margin-top: 41px;
+  margin-bottom: 41px;
+}
+
+.preferences {
+  margin-top: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 175px;
+}
+.preferences .third-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 6px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  margin-bottom: 12px;
+}
+.preferences .third-text p {
+  margin: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 25.06px;
+  color: rgba(31, 45, 73, 0.6980392157);
+}
+.preferences .third-text .text-x {
+  padding: 0.2rem;
+}
+
+.third-btn-try {
+  margin-top: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #3C72FF;
+  padding: 10px 92px;
+  border-radius: 48px;
+}
+.third-btn-try a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.18px;
+}
+
+.third-card-text {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27.82px;
+  color: rgba(31, 45, 73, 0.6666666667);
+  max-width: 279px;
+  height: 188px;
+}
+
+.third-btn-contact {
+  margin-top: 31px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #3C72FF;
+  padding: 10px 92px;
+  border-radius: 48px;
+}
+.third-btn-contact a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.18px;
 }
 
 .main-fourth {
