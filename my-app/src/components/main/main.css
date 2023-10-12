@@ -64,9 +64,10 @@
 .daltter-main {
   margin-top: 0;
   margin-bottom: 12px;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 76px;
   line-height: 79.34px;
+  color: #1F2D49;
 }
 
 .email-main {
@@ -112,7 +113,6 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 2rem;
 }
 .second-right span {
   color: #3C72FF;
@@ -121,6 +121,8 @@
 
 .second-main {
   margin: 0;
+  color: #1F2D49;
+  margin-bottom: 12px;
   font-weight: 800;
   font-size: 64px;
   line-height: 66.82px;
@@ -134,6 +136,7 @@
 }
 
 .second-try-button {
+  margin-top: 22px;
   display: inline-block;
   background: #3C72FF;
   color: #fff;

@@ -6,7 +6,7 @@ function Main() {
              <div className='main-first'>
                 <div className="hello-left">
                     <h1 className='daltter-main'> <span className='daltter-text'>daltter - </span><br/> is the future <br/> of marketing.</h1>
-                    <p className='email-main'>Email advertising has never been so effective <br/> and affordable for everyone!</p>
+                    <p className='email-main'>Email advertising has never been so <br/> effective and affordable for everyone!</p>
                     <div className="btns-first">
                     <a href="#" className='try-for-free'>Try it now</a>
                     <a href="#" className='features'>Why us?</a>
@@ -145,7 +145,7 @@ function Main() {
                     <p>Leave us your email and we <br/> will write to you:</p>
                     <div className='email-input'>
                         <input type="text" className='email-address' placeholder='Email Address'/>
-                        <a href="#">x</a>
+                        <a href="#">></a>
                     </div>
                 </div>
             </div>
