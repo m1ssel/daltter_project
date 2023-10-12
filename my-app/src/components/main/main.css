@@ -179,6 +179,8 @@
       -ms-flex-pack: center;
           justify-content: center;
   gap: 2rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .card1 h2 {

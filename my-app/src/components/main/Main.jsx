@@ -145,7 +145,7 @@ function Main() {
                     <p>Leave us your email and we <br/> will write to you:</p>
                     <div className='email-input'>
                         <input type="text" className='email-address' placeholder='Email Address'/>
-                        <a href="#">></a>
+                        <a href="#">&gt;</a>
                     </div>
                 </div>
             </div>
