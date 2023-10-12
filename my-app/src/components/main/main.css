@@ -402,6 +402,7 @@
   line-height: 29.23px;
   padding: 1rem 2rem;
   color: rgba(0, 0, 0, 0.476);
+  outline: none;
 }
 
 .email-input {
