@@ -6,7 +6,7 @@ function Header() {
             <div className='header'>
                 <div className="logo-header">
                     <img src="/src/img/logo.png" alt="logo" />
-                    <p>daltter</p>
+                    <a href="#">daltter</a>
                 </div>
                 <div className="links-header">
                     <a href="#">Features</a>

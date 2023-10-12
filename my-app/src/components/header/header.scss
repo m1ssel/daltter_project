@@ -9,9 +9,12 @@
 .logo-header {
     display: flex;
     align-items: center;
-    & p {
+    padding: 15px 0;
+    & a {
+        text-decoration: none;
         margin-left: 1rem;
-        @include def(700, 20px, 23.48px)
+        @include def(700, 20px, 23.48px);
+        color: #000;
     }
 }
 .links-header {
