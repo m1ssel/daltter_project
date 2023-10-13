@@ -1,13 +1,9 @@
-import Header from "./components/header/Header"
-import Main from "./components/main/Main"
-import Footer from "./components/footer/Footer"
+import Mainpage from "./pages/Mainpage";
 
 function App() {
   return (
     <>
-      <Header></Header>
-      <Main></Main>
-      <Footer></Footer>
+      <Mainpage />
     </>
   );
 }
