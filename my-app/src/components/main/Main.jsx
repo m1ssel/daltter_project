@@ -98,11 +98,11 @@ function Main() {
                                         <p>Guarantee</p>
                                     </div>
                                     <div className='third-text'>
-                                        <img src="/src/img/false.png" alt="x" className='text-x'/>
+                                        <img src="/src/img/true.png" alt="x" />
                                         <p>Customization</p>
                                     </div>
                                     <div className='third-text'>
-                                        <img src="/src/img/false.png" alt="x" className='text-x'/>
+                                        <img src="/src/img/true.png" alt="x" />
                                         <p>Clients-filters</p>
                                     </div>
                                 </div>

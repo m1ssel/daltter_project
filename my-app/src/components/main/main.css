@@ -1,4 +1,8 @@
 @import '/src/css/styles.css';
+body {
+  margin: 0;
+}
+
 .main-first {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11,7 +15,7 @@
           justify-content: space-between;
   max-width: 1120px;
   margin: 0 auto;
-  margin-top: 5rem;
+  padding-top: 15vh;
 }
 
 .hello-right {
