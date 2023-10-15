@@ -37,24 +37,26 @@ body{
         padding: 0.6rem 2.3rem;
     }
 }
-.main-login {
+.main-signup {
     display: flex;
     justify-content: center;
-    margin-top: 140px;
+    margin-top: calc(50vh - 365px);
     flex: 1 1 auto;
 }
-.main-login-container{
-    & .login-container {
+.main-signup-container{
+    height: 590px;
+    background: #e4ecff59;
+    & .signup-container {
+        margin-top: 1.3rem;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         width: 515px;
-        height: 511px;
-        background: #e4ecff59;
+        height: 550px;
         border-radius: 24px;
         & img{
-            margin-bottom: 61px;
+            margin-bottom: 25px;
             width: 95.7px;
             height: 91px;
         }
@@ -73,7 +75,25 @@ body{
         }
         & .input-main2-sign{
             @include def(500, 20px, 20.88px);
-            margin-bottom: 27px;
+            margin-bottom: 38px;
+            border-radius: 18px;
+            outline: none;
+            border: 2px solid #3c73ff53;
+            background-color: #e4ecff59;
+            padding-left: 19px;
+        }
+        & .input-main3-sign{
+            @include def(500, 20px, 20.88px);
+            margin-bottom: 19px;
+            border-radius: 18px;
+            border: 2px solid #3c73ff53;
+            outline: none;
+            background-color: #e4ecff59;
+            padding-left: 19px;
+        }
+        & .input-main4-sign{
+            @include def(500, 20px, 20.88px);
+            margin-bottom: 19px;
             border-radius: 18px;
             outline: none;
             border: 2px solid #3c73ff53;
@@ -82,28 +102,46 @@ body{
         }
     }
 }
-
-.signup-btn {
-    @include def(700, 24px, 28.18px);
-    color: #fff;
-    background: #3C72FF;
-    padding: 11px 101px;
-    border-radius: 17px;
-    text-decoration: none;
-    margin-bottom: 13px;
+.signup-btn-container {
+    margin-bottom: 35px;
+    .signup-btn {
+        @include def(700, 24px, 28.18px);
+        color: #fff;
+        background: #3C72FF;
+        padding: 12px 150px;
+        border-radius: 17px;
+        text-decoration: none;
+    }
     & :hover {
         color: #3C72FF;
         border: 1px solid #3C72FF;
-        background-color: #fff;
+        background-color: transparent;
     }
 }
-.forget-btn {
-    margin-bottom: 52px;
-    @include def(500, 14px, 14.62px);
+.attention-container {
+    display: flex;
+    justify-content: center;
     text-decoration: none;
-    color: #0000009a;
-    border-bottom: 1px solid #0000009a;
+    width: 344px;
+    & .attention-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin-bottom: 22px;
+        @include def(500, 14px, 14.62px);
+        text-decoration: none;
+        color: #00000066;
+        text-align: center;
+        & a{
+            text-decoration: none;
+            @include def(500, 14px, 14.62px);
+            color: #00000066;
+            border-bottom: 1px solid #00000042
+        }
+    }
 }
+
 .back-btn {
     @include def(500, 20px, 20.88px);
     color: #00000048;
@@ -123,11 +161,11 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
-        @include def(500, 15px, 12.53px);
+        @include def(500, 20px, 20.88px);
         color: rgba(0,0,0,.35);
         & a{
             text-decoration: none;
-            @include def(500, 15px, 12.53px);
+            @include def(500, 20px, 20.88px);
             color: rgba(0,0,0,.35);
         }
     }

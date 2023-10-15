@@ -51,20 +51,25 @@ body {
   padding: 0.6rem 2.3rem;
 }
 
-.main-login {
+.main-signup {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 140px;
+  margin-top: calc(50vh - 365px);
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
 }
 
-.main-login-container .login-container {
+.main-signup-container {
+  height: 590px;
+  background: rgba(228, 236, 255, 0.3490196078);
+}
+.main-signup-container .signup-container {
+  margin-top: 1.3rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -79,20 +84,19 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   width: 515px;
-  height: 511px;
-  background: rgba(228, 236, 255, 0.3490196078);
+  height: 550px;
   border-radius: 24px;
 }
-.main-login-container .login-container img {
-  margin-bottom: 61px;
+.main-signup-container .signup-container img {
+  margin-bottom: 25px;
   width: 95.7px;
   height: 91px;
 }
-.main-login-container .login-container input {
+.main-signup-container .signup-container input {
   width: 365px;
   height: 51px;
 }
-.main-login-container .login-container .input-main-sign {
+.main-signup-container .signup-container .input-main-sign {
   font-weight: 500;
   font-size: 20px;
   line-height: 20.88px;
@@ -103,11 +107,33 @@ body {
   background-color: rgba(228, 236, 255, 0.3490196078);
   padding-left: 19px;
 }
-.main-login-container .login-container .input-main2-sign {
+.main-signup-container .signup-container .input-main2-sign {
   font-weight: 500;
   font-size: 20px;
   line-height: 20.88px;
-  margin-bottom: 27px;
+  margin-bottom: 38px;
+  border-radius: 18px;
+  outline: none;
+  border: 2px solid rgba(60, 115, 255, 0.3254901961);
+  background-color: rgba(228, 236, 255, 0.3490196078);
+  padding-left: 19px;
+}
+.main-signup-container .signup-container .input-main3-sign {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20.88px;
+  margin-bottom: 19px;
+  border-radius: 18px;
+  border: 2px solid rgba(60, 115, 255, 0.3254901961);
+  outline: none;
+  background-color: rgba(228, 236, 255, 0.3490196078);
+  padding-left: 19px;
+}
+.main-signup-container .signup-container .input-main4-sign {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20.88px;
+  margin-bottom: 19px;
   border-radius: 18px;
   outline: none;
   border: 2px solid rgba(60, 115, 255, 0.3254901961);
@@ -115,31 +141,64 @@ body {
   padding-left: 19px;
 }
 
-.signup-btn {
+.signup-btn-container {
+  margin-bottom: 35px;
+}
+.signup-btn-container .signup-btn {
   font-weight: 700;
   font-size: 24px;
   line-height: 28.18px;
   color: #fff;
   background: #3C72FF;
-  padding: 11px 101px;
+  padding: 12px 150px;
   border-radius: 17px;
   text-decoration: none;
-  margin-bottom: 13px;
 }
-.signup-btn :hover {
+.signup-btn-container :hover {
   color: #3C72FF;
   border: 1px solid #3C72FF;
-  background-color: #fff;
+  background-color: transparent;
 }
 
-.forget-btn {
-  margin-bottom: 52px;
+.attention-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  width: 344px;
+}
+.attention-container .attention-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 22px;
   font-weight: 500;
   font-size: 14px;
   line-height: 14.62px;
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.6039215686);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.6039215686);
+  color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+.attention-container .attention-text a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14.62px;
+  color: rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2588235294);
 }
 
 .back-btn {
@@ -174,14 +233,14 @@ body {
       -ms-flex-align: center;
           align-items: center;
   font-weight: 500;
-  font-size: 15px;
-  line-height: 12.53px;
+  font-size: 20px;
+  line-height: 20.88px;
   color: rgba(0, 0, 0, 0.35);
 }
 .footer-signup .footer-container a {
   text-decoration: none;
   font-weight: 500;
-  font-size: 15px;
-  line-height: 12.53px;
+  font-size: 20px;
+  line-height: 20.88px;
   color: rgba(0, 0, 0, 0.35);
 }

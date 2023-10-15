@@ -67,13 +67,16 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 160px;
+  margin-top: calc(50vh - 325px);
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
 }
 
 .main-login-container {
+  height: 510px;
+}
+.main-login-container .login-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -92,47 +95,55 @@ body {
   background: rgba(228, 236, 255, 0.3490196078);
   border-radius: 24px;
 }
-.main-login-container img {
+.main-login-container .login-container img {
   margin-bottom: 61px;
   width: 95.7px;
   height: 91px;
 }
-.main-login-container .input-main {
+.main-login-container .login-container input {
+  width: 365px;
+  height: 51px;
+}
+.main-login-container .login-container .input-main {
   font-weight: 500;
   font-size: 20px;
   line-height: 20.88px;
   margin-bottom: 19px;
   border-radius: 18px;
-  padding: 15px 213px 15px 19px;
   border: 2px solid rgba(60, 115, 255, 0.3254901961);
   outline: none;
   background-color: rgba(228, 236, 255, 0.3490196078);
+  padding-left: 19px;
 }
-.main-login-container .input-main2 {
+.main-login-container .login-container .input-main2 {
   font-weight: 500;
   font-size: 20px;
   line-height: 20.88px;
   margin-bottom: 27px;
   border-radius: 18px;
-  padding: 15px 213px 15px 19px;
   outline: none;
   border: 2px solid rgba(60, 115, 255, 0.3254901961);
   background-color: rgba(228, 236, 255, 0.3490196078);
+  padding-left: 19px;
 }
 
-.login-btn {
+.login-btn-container {
+  margin-bottom: 24px;
+}
+.login-btn-container .login-btn {
   font-weight: 700;
   font-size: 24px;
   line-height: 28.18px;
   color: #fff;
   background: #3C72FF;
-  padding: 11px 101px;
+  padding: 11px 164px;
   border-radius: 17px;
   text-decoration: none;
-  margin-bottom: 13px;
 }
-.login-btn span {
-  padding: 0 6.3rem;
+.login-btn-container :hover {
+  color: #3C72FF;
+  border: 1px solid #3C72FF;
+  background-color: transparent;
 }
 
 .forget-btn {
@@ -141,15 +152,15 @@ body {
   font-size: 14px;
   line-height: 14.62px;
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.6039215686);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.6039215686);
+  color: rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
 }
 
 .back-btn {
   font-weight: 500;
   font-size: 20px;
   line-height: 20.88px;
-  color: rgba(0, 0, 0, 0.2823529412);
+  color: rgba(0, 0, 0, 0.4);
   text-decoration: none;
 }
 
@@ -177,14 +188,14 @@ body {
       -ms-flex-align: center;
           align-items: center;
   font-weight: 500;
-  font-size: 15px;
-  line-height: 12.53px;
+  font-size: 20px;
+  line-height: 20.88px;
   color: rgba(0, 0, 0, 0.35);
 }
 .footer-login .footer-container a {
   text-decoration: none;
   font-weight: 500;
-  font-size: 15px;
-  line-height: 12.53px;
+  font-size: 20px;
+  line-height: 20.88px;
   color: rgba(0, 0, 0, 0.35);
 }

@@ -1,0 +1,143 @@
+@import '/src/css/styles.css';
+
+@mixin def($f, $a, $b){
+    font-weight: $f;
+    font-size: $a;
+    line-height: $b;
+}
+
+.card-container{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.card1 {
+    & h2{
+        text-align: center;
+        @include def(700, 40px, 41.76px);
+        margin: 0;
+    }
+}
+.card1-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    width: 351px;
+    height: 452px;
+    background-color: #E4ECFF;
+    border-radius: 48px;
+    text-align: center;
+}
+.price-addit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    & .price-number{
+        font-family: 'Inter', sans-serif;
+        @include def(500, 20px, 20.88px);
+        text-decoration: line-through;
+        color: #7A8AA9;
+        margin: 0;
+    }
+    & .price-percent{
+        font-family: 'Inter', sans-serif;
+        @include def(500, 16px, 16.7px);
+        color: #67799E;
+        background-color: #BDC9E7;
+        padding: 0.2rem;
+        border-radius: 20px;
+        margin: 0;
+    }
+}
+.price-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    & .text-1{
+        margin-top: 6px;
+        font-family: 'Inter';
+        font-size: 20px;
+        font-weight: 700;
+        color: #1F2D49;
+    }
+    & .text-2{
+        font-family: 'Inter';
+        font-size: 40px;
+        font-weight: 700;
+        color: #1F2D49;
+    }
+}
+.plans-container{
+    margin-top: 41px;
+    margin-bottom: 41px;
+}
+.preferences{
+    margin-top: 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 175px;
+    & .third-text{
+        display: flex;
+        gap: 6px;
+        align-items: center;
+        margin-bottom: 12px;
+        & img{
+            margin-left: 10px;
+        }
+        & p{
+            margin: 0;
+            @include def(700, 24px, 25.06px);
+            color: #1f2d49b2;
+        }
+        & .text-x{
+            padding: 0.2rem;
+        }
+    }
+}
+.third-btn-try {
+    margin-top: 27px;
+    display: flex;
+    & a{
+        background-color: #3C72FF;
+        border: 1px solid transparent;
+        border-radius: 48px;
+        padding: 10px 92px;
+        text-decoration: none;
+        color: #fff;
+        @include def(700, 24px, 28.18px);
+    }
+    & :hover {
+        color: #3C72FF;
+        border: 1px solid #3C72FF;
+        background-color: transparent;
+    }
+}
+.third-card-text{
+    @include def(700, 24px, 27.82px);
+    color: #1f2d49aa;
+    max-width: 279px;
+    height: 195px;
+}
+.third-btn-contact{
+    margin-top: 31px;
+    display: flex;
+    & a{
+        background-color: #3C72FF;
+        border: 1px solid transparent;
+        padding: 10px 92px;
+        border-radius: 48px;
+        text-decoration: none;
+        color: #fff;
+        @include def(700, 24px, 28.18px);
+    }
+    & :hover {
+        color: #3C72FF;
+        border: 1px solid #3C72FF;
+        background-color: transparent;
+    }
+}

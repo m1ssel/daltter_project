@@ -21,7 +21,7 @@ function Header() {
                     </div>
                     <div className="buttons-header">
                         <Link to="/login" className='btn-login'>Login</Link>
-                        <Link to="/signup" className='btn-sign'>Sign Up</Link>
+                        <div className='button-header-signup'><Link to="/signup" className='btn-sign'>Sign Up</Link></div>
                     </div>
                 </div>
             </header>

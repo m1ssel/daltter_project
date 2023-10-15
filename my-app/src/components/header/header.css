@@ -81,7 +81,7 @@ header {
   display: inline-block;
   background: #E4ECFF;
   color: #3C72FF;
-  padding: 0.6rem 1.6rem;
+  padding: 0.6rem 1.7rem;
   text-decoration: none;
   border-radius: 17px;
   font-weight: 700;
@@ -89,9 +89,10 @@ header {
   line-height: 18.78px;
 }
 
-.btn-sign {
+.button-header-signup .btn-sign {
   display: inline-block;
   background: #3C72FF;
+  border: 1px solid transparent;
   color: #fff;
   padding: 0.6rem 1.8rem;
   text-decoration: none;
@@ -99,4 +100,9 @@ header {
   font-weight: 700;
   font-size: 16px;
   line-height: 18.78px;
+}
+.button-header-signup :hover {
+  color: #3C72FF;
+  border: 1px solid #3C72FF;
+  background-color: transparent;
 }

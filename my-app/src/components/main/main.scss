@@ -29,14 +29,23 @@ body{
     display: flex;
     gap: 1rem;
 }
-.try-for-free {
-    display: inline-block; 
-    background: #3C72FF; 
-    color: #fff; 
-    padding: 0.7rem 4.375rem; 
-    text-decoration: none; 
-    border-radius: 17px;
-    @include def(700, 24px, 28.18px)
+
+.transparent-btn-try {
+    & .try-for-free {
+        display: inline-block;
+        border: 1px solid transparent;
+        background: #3C72FF; 
+        color: #fff; 
+        padding: 0.7rem 4.375rem; 
+        text-decoration: none; 
+        border-radius: 17px;
+        @include def(700, 24px, 28.18px)
+    }
+    & :hover {
+        color: #3C72FF;
+        border: 1px solid #3C72FF;
+        background-color: transparent;
+    }
 }
 .features {
     display: inline-block; 
@@ -96,16 +105,25 @@ body{
     margin: 0;
     @include def(600, 20px, 22.98px)
 }
-.second-try-button {
-    margin-top: 22px;
-    display: inline-block; 
-    background: #3C72FF; 
-    color: #fff; 
-    padding: 0.7rem 4rem; 
-    text-decoration: none; 
-    border-radius: 17px;
-    @include def(700, 24px, 28.18px)
+.second-btn {
+    .second-try-button {
+        margin-top: 22px;
+        display: inline-block; 
+        background: #3C72FF; 
+        border: 1px solid transparent;
+        color: #fff; 
+        padding: 0.7rem 4rem; 
+        text-decoration: none; 
+        border-radius: 17px;
+        @include def(700, 24px, 28.18px)
+    }
+    & :hover {
+        color: #3C72FF;
+        border: 1px solid #3C72FF;
+        background-color: transparent;
+    }
 }
+
 
 
 
@@ -128,19 +146,19 @@ body{
     gap: 2rem;
     flex-wrap: wrap;
 }
-.card1 {
+.card3 {
     & h2{
         text-align: center;
         @include def(700, 40px, 41.76px);
         margin: 0;
     }
 }
-.card1-container {
+.card3-container {
     display: flex;
     justify-content: center;
     margin-top: 15px;
     width: 351px;
-    height: auto;
+    height: 452px;
     background-color: #E4ECFF;
     border-radius: 48px;
     text-align: center;
@@ -215,34 +233,63 @@ body{
 .third-btn-try {
     margin-top: 27px;
     display: flex;
-    background-color: #3C72FF;
-    padding: 10px 92px;
-    border-radius: 48px;
     & a{
+        background-color: #3C72FF;
+        border: 1px solid transparent;
+        border-radius: 48px;
+        padding: 10px 92px;
         text-decoration: none;
         color: #fff;
         @include def(700, 24px, 28.18px);
+    }
+    & :hover {
+        color: #3C72FF;
+        border: 1px solid #3C72FF;
+        background-color: transparent;
     }
 }
 .third-card-text{
     @include def(700, 24px, 27.82px);
     color: #1f2d49aa;
     max-width: 279px;
-    height: 188px;
+    height: 195px;
 }
 .third-btn-contact{
     margin-top: 31px;
     display: flex;
-    background-color: #3C72FF;
-    padding: 10px 92px;
-    border-radius: 48px;
     & a{
+        background-color: #3C72FF;
+        border: 1px solid transparent;
+        padding: 10px 92px;
+        border-radius: 48px;
         text-decoration: none;
         color: #fff;
         @include def(700, 24px, 28.18px);
     }
+    & :hover {
+        color: #3C72FF;
+        border: 1px solid #3C72FF;
+        background-color: transparent;
+    }
 }
-
+.third-btn-contact-three{
+    margin-top: 27px;
+    display: flex;
+    & a{
+        background-color: #3C72FF;
+        border: 1px solid transparent;
+        padding: 10px 92px;
+        border-radius: 48px;
+        text-decoration: none;
+        color: #fff;
+        @include def(700, 24px, 28.18px);
+    }
+    & :hover {
+        color: #3C72FF;
+        border: 1px solid #3C72FF;
+        background-color: transparent;
+    }
+}
 
 
 .main-fourth {
