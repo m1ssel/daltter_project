@@ -1,5 +1,5 @@
 import './main.css';
-import Cards from '../cards/cards';
+import Cards from '../cards/Сards';
 
 function Main() {
     return (

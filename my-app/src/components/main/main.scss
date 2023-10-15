@@ -21,6 +21,18 @@ body{
 .hello-right {
     display: flex;
 }
+@media (max-width:1120px) {
+    .hello-right{
+        img{
+            display: none;
+        }
+    }
+    .main-first {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
 .hello-left {
     display: flex;
     flex-direction: column;
@@ -85,6 +97,18 @@ body{
 }
 .second-left {
     display: flex;
+}
+@media (max-width:1120px) {
+    .second-left{
+        img{
+            display: none;
+        }
+    }
+    .main-second {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 .second-right {
     display: flex;
@@ -304,6 +328,20 @@ body{
     & p{
         @include def(500, 40px, 41.76px);
     }
+}
+@media (max-width:1120px) {
+    .main-fourth {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        & .leave-email {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    } 
 }
 .leave-email {
     display: flex;

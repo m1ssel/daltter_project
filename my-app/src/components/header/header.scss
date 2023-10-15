@@ -48,6 +48,17 @@ header {
     align-items: center;
     width: 100%;
 }
+@media (max-width:1120px) {
+    .header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        & .links-header {
+            display: none;
+        }
+    }
+}
+
 .buttons-header{
     display: flex;
     gap: 1rem;
