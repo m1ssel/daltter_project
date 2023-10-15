@@ -28,64 +28,62 @@ body{
             @include def(700, 20px, 23.48px);
         }
     }
-    & .header-container-btns {
-        max-width: 123px;
-        width: 100%;
-        & .signup-login-btn{
-            @include def(700, 16px, 18.78px);
-            text-decoration: none;
-            background: #3C72FF;
-            border-radius: 17px;
-            color: white;
-            padding: 0.6rem 1.9rem;
-        }
-        & :hover {
-            color: #3C72FF;
-            border: 1px solid #3C72FF;
-            background-color: transparent;
-        }
+    & .login-signup-btn{
+        @include def(700, 16px, 18.78px);
+        text-decoration: none;
+        background: #E4ECFF;
+        border-radius: 17px;
+        color: #3C72FF;
+        padding: 0.6rem 2.3rem;
     }
 }
 .main-login {
     display: flex;
     justify-content: center;
-    margin-top: 160px;
+    margin-top: 140px;
     flex: 1 1 auto;
 }
 .main-login-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 515px;
-    height: 511px;
-    background: #e4ecff59;
-    border-radius: 24px;
-    & img{
-        margin-bottom: 61px;
-        width: 95.7px;
-        height: 91px;
-    }
-    & .input-main{
-        @include def(500, 20px, 20.88px);
-        margin-bottom: 19px;
-        border-radius: 18px;
-        padding: 15px 213px 15px 19px;
-        border: 2px solid #3c73ff53;
-        outline: none;
-        background-color: #e4ecff59;
-    }
-    & .input-main2{
-        @include def(500, 20px, 20.88px);
-        margin-bottom: 27px;
-        border-radius: 18px;
-        padding: 15px 213px 15px 19px;
-        outline: none;
-        border: 2px solid #3c73ff53;
-        background-color: #e4ecff59;
+    & .login-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 515px;
+        height: 511px;
+        background: #e4ecff59;
+        border-radius: 24px;
+        & img{
+            margin-bottom: 61px;
+            width: 95.7px;
+            height: 91px;
+        }
+        & input {
+            width:  365px;
+            height: 51px;
+        }
+        & .input-main-sign{
+            @include def(500, 20px, 20.88px);
+            margin-bottom: 19px;
+            border-radius: 18px;
+            border: 2px solid #3c73ff53;
+            outline: none;
+            background-color: #e4ecff59;
+            padding-left: 19px;
+        }
+        & .input-main2-sign{
+            @include def(500, 20px, 20.88px);
+            margin-bottom: 27px;
+            border-radius: 18px;
+            outline: none;
+            border: 2px solid #3c73ff53;
+            background-color: #e4ecff59;
+            padding-left: 19px;
+        }
     }
 }
-.login-btn {
+
+.signup-btn {
     @include def(700, 24px, 28.18px);
     color: #fff;
     background: #3C72FF;
@@ -93,8 +91,10 @@ body{
     border-radius: 17px;
     text-decoration: none;
     margin-bottom: 13px;
-    & span{
-        padding: 0 6.3rem;
+    & :hover {
+        color: #3C72FF;
+        border: 1px solid #3C72FF;
+        background-color: #fff;
     }
 }
 .forget-btn {
@@ -111,7 +111,7 @@ body{
 }
 
 
-.footer-login {
+.footer-signup {
     display: flex;
     justify-content: center;
     border-top: 1px solid rgba(82,128,198,.12);

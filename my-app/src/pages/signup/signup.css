@@ -40,24 +40,15 @@ body {
   font-size: 20px;
   line-height: 23.48px;
 }
-.header-login .header-container-btns {
-  max-width: 123px;
-  width: 100%;
-}
-.header-login .header-container-btns .signup-login-btn {
+.header-login .login-signup-btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 18.78px;
   text-decoration: none;
-  background: #3C72FF;
+  background: #E4ECFF;
   border-radius: 17px;
-  color: white;
-  padding: 0.6rem 1.9rem;
-}
-.header-login .header-container-btns :hover {
   color: #3C72FF;
-  border: 1px solid #3C72FF;
-  background-color: transparent;
+  padding: 0.6rem 2.3rem;
 }
 
 .main-login {
@@ -67,13 +58,13 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 160px;
+  margin-top: 140px;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
 }
 
-.main-login-container {
+.main-login-container .login-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -92,35 +83,39 @@ body {
   background: rgba(228, 236, 255, 0.3490196078);
   border-radius: 24px;
 }
-.main-login-container img {
+.main-login-container .login-container img {
   margin-bottom: 61px;
   width: 95.7px;
   height: 91px;
 }
-.main-login-container .input-main {
+.main-login-container .login-container input {
+  width: 365px;
+  height: 51px;
+}
+.main-login-container .login-container .input-main-sign {
   font-weight: 500;
   font-size: 20px;
   line-height: 20.88px;
   margin-bottom: 19px;
   border-radius: 18px;
-  padding: 15px 213px 15px 19px;
   border: 2px solid rgba(60, 115, 255, 0.3254901961);
   outline: none;
   background-color: rgba(228, 236, 255, 0.3490196078);
+  padding-left: 19px;
 }
-.main-login-container .input-main2 {
+.main-login-container .login-container .input-main2-sign {
   font-weight: 500;
   font-size: 20px;
   line-height: 20.88px;
   margin-bottom: 27px;
   border-radius: 18px;
-  padding: 15px 213px 15px 19px;
   outline: none;
   border: 2px solid rgba(60, 115, 255, 0.3254901961);
   background-color: rgba(228, 236, 255, 0.3490196078);
+  padding-left: 19px;
 }
 
-.login-btn {
+.signup-btn {
   font-weight: 700;
   font-size: 24px;
   line-height: 28.18px;
@@ -131,8 +126,10 @@ body {
   text-decoration: none;
   margin-bottom: 13px;
 }
-.login-btn span {
-  padding: 0 6.3rem;
+.signup-btn :hover {
+  color: #3C72FF;
+  border: 1px solid #3C72FF;
+  background-color: #fff;
 }
 
 .forget-btn {
@@ -153,7 +150,7 @@ body {
   text-decoration: none;
 }
 
-.footer-login {
+.footer-signup {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -166,7 +163,7 @@ body {
   position: fixed;
   width: 100%;
 }
-.footer-login .footer-container {
+.footer-signup .footer-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -181,7 +178,7 @@ body {
   line-height: 12.53px;
   color: rgba(0, 0, 0, 0.35);
 }
-.footer-login .footer-container a {
+.footer-signup .footer-container a {
   text-decoration: none;
   font-weight: 500;
   font-size: 15px;

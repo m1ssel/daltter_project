@@ -9,8 +9,10 @@ function Header() {
             <header>
                 <div className='header'>
                     <div className="logo-header">
-                        <img src="/src/img/logo.png" alt="logo" />
-                        <a href="#">daltter</a>
+                        <Link to="/" className="link_header">
+                            <img src="/src/img/logo.png" alt="logo" />
+                            <div>daltter</div>
+                        </Link>
                     </div>
                     <div className="links-header">
                         <a href="#">Features</a>

@@ -8,7 +8,16 @@
           align-items: center;
   padding: 15px 0;
 }
-.logo-header a {
+.logo-header .link_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+.logo-header .link_header div {
   text-decoration: none;
   margin-left: 1rem;
   font-weight: 700;
@@ -72,7 +81,7 @@ header {
   display: inline-block;
   background: #E4ECFF;
   color: #3C72FF;
-  padding: 0.7rem 1.5rem;
+  padding: 0.6rem 1.6rem;
   text-decoration: none;
   border-radius: 17px;
   font-weight: 700;
@@ -84,7 +93,7 @@ header {
   display: inline-block;
   background: #3C72FF;
   color: #fff;
-  padding: 0.7rem 1.5rem;
+  padding: 0.6rem 1.8rem;
   text-decoration: none;
   border-radius: 17px;
   font-weight: 700;
