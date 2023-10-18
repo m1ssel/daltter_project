@@ -6,6 +6,8 @@
     line-height: $b;
 }
 
+
+
 header {
     display: flex;
     border-bottom: 1px solid rgba(82,128,198,.12);
@@ -13,16 +15,6 @@ header {
     position: fixed;
     top: 0;
     background-color: #fff;
-    @media (max-width:1120px) {
-        .header {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            & .links-header {
-                display: none;
-            }
-        }
-    }
     & .header {
         justify-content: space-between;
         display: flex;
@@ -92,5 +84,15 @@ header {
 }
 
 
-
-
+@media (max-width:1120px) {
+    header {
+        .header {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .links-header {
+                display: none;
+            }
+        }
+    }
+}

@@ -58,7 +58,7 @@ function Cards(props) {
                                 <span className='text-1'>$<span className='text-2'>{props.Mainprice}</span>{props.Ads}</span>
                             </div>
                         </div>
-                            <div className={props.type === "1" ? "preferences" : "preferences preferences-three"}>
+                            <div className={props.type === "1" ? "preferences" : "preferences-three"}>
                                 {props.type === "1" ? (
                                     <>
                                         <div className='third-text'>
@@ -89,7 +89,7 @@ function Cards(props) {
                                     </div>
                                     )}
                             </div>
-                            <div className={props.type === "1" ? "third-btn-try" : "third-btn-try third-btn-contact-three"}>
+                            <div className={props.type === "1" ? "third-btn-try" : "third-btn-contact-three"}>
                                 {props.type === "1" ? (
                                     <a href="#">Try it now</a>
                                 ) : (

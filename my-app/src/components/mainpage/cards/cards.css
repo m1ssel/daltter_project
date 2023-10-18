@@ -20,8 +20,7 @@
   margin-bottom: 0;
   text-align: center;
 }
-
-.card-container {
+.main-third .card-container {
   margin-top: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -33,14 +32,14 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-.card-container .card1 h2 {
+.main-third .card-container .card1 h2 {
   text-align: center;
   font-weight: 700;
   font-size: 40px;
   line-height: 41.76px;
   margin: 0;
 }
-.card-container .card1 .card1-container {
+.main-third .card-container .card1 .card1-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -54,11 +53,11 @@
   border-radius: 48px;
   text-align: center;
 }
-.card-container .card1 .card1-container .plans-container {
+.main-third .card-container .card1 .card1-container .plans-container {
   margin-top: 41px;
   margin-bottom: 41px;
 }
-.card-container .card1 .card1-container .plans-container .preferences {
+.main-third .card-container .card1 .card1-container .plans-container .preferences {
   margin-top: 34px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -72,7 +71,7 @@
           justify-content: center;
   min-height: 175px;
 }
-.card-container .card1 .card1-container .plans-container .preferences .third-text {
+.main-third .card-container .card1 .card1-container .plans-container .preferences .third-text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -82,20 +81,20 @@
           align-items: center;
   margin-bottom: 12px;
 }
-.card-container .card1 .card1-container .plans-container .preferences .third-text img {
+.main-third .card-container .card1 .card1-container .plans-container .preferences .third-text img {
   margin-left: 10px;
 }
-.card-container .card1 .card1-container .plans-container .preferences .third-text p {
+.main-third .card-container .card1 .card1-container .plans-container .preferences .third-text p {
   margin: 0;
   font-weight: 700;
   font-size: 24px;
   line-height: 25.06px;
   color: rgba(31, 45, 73, 0.6980392157);
 }
-.card-container .card1 .card1-container .plans-container .preferences .third-text .text-x {
+.main-third .card-container .card1 .card1-container .plans-container .preferences .third-text .text-x {
   padding: 0.2rem;
 }
-.card-container .card1 .card1-container .plans-container .preferences-three {
+.main-third .card-container .card1 .card1-container .plans-container .preferences-three {
   margin-top: 34px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -109,7 +108,7 @@
           justify-content: center;
   min-height: 175px;
 }
-.card-container .card1 .card1-container .plans-container .preferences-three .third-card-text {
+.main-third .card-container .card1 .card1-container .plans-container .preferences-three .third-card-text {
   font-weight: 700;
   font-size: 24px;
   line-height: 27.82px;
@@ -117,13 +116,13 @@
   max-width: 279px;
   height: 195px;
 }
-.card-container .card1 .card1-container .plans-container .third-btn-try {
+.main-third .card-container .card1 .card1-container .plans-container .third-btn-try {
   margin-top: 27px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.card-container .card1 .card1-container .plans-container .third-btn-try a {
+.main-third .card-container .card1 .card1-container .plans-container .third-btn-try a {
   background-color: #3C72FF;
   border: 1px solid transparent;
   border-radius: 48px;
@@ -134,12 +133,12 @@
   font-size: 24px;
   line-height: 28.18px;
 }
-.card-container .card1 .card1-container .plans-container .third-btn-try :hover {
+.main-third .card-container .card1 .card1-container .plans-container .third-btn-try :hover {
   color: #3C72FF;
   border: 1px solid #3C72FF;
   background-color: transparent;
 }
-.card-container .card1 .card1-container .plans-container .price-addit {
+.main-third .card-container .card1 .card1-container .plans-container .price-addit {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -151,7 +150,7 @@
           align-items: center;
   gap: 1rem;
 }
-.card-container .card1 .card1-container .plans-container .price-addit .price-number {
+.main-third .card-container .card1 .card1-container .plans-container .price-addit .price-number {
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -160,7 +159,7 @@
   color: #7A8AA9;
   margin: 0;
 }
-.card-container .card1 .card1-container .plans-container .price-addit .price-percent {
+.main-third .card-container .card1 .card1-container .plans-container .price-addit .price-percent {
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -171,7 +170,7 @@
   border-radius: 20px;
   margin: 0;
 }
-.card-container .card1 .card1-container .plans-container .price-main {
+.main-third .card-container .card1 .card1-container .plans-container .price-main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -182,50 +181,26 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
-.card-container .card1 .card1-container .plans-container .price-main .text-1 {
+.main-third .card-container .card1 .card1-container .plans-container .price-main .text-1 {
   margin-top: 6px;
   font-family: "Inter";
   font-size: 20px;
   font-weight: 700;
   color: #1F2D49;
 }
-.card-container .card1 .card1-container .plans-container .price-main .text-2 {
+.main-third .card-container .card1 .card1-container .plans-container .price-main .text-2 {
   font-family: "Inter";
   font-size: 40px;
   font-weight: 700;
   color: #1F2D49;
 }
-
-.third-btn-contact {
-  margin-top: 31px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-.third-btn-contact a {
-  background-color: #3C72FF;
-  border: 1px solid transparent;
-  padding: 10px 92px;
-  border-radius: 48px;
-  text-decoration: none;
-  color: #fff;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28.18px;
-}
-.third-btn-contact :hover {
-  color: #3C72FF;
-  border: 1px solid #3C72FF;
-  background-color: transparent;
-}
-
-.third-btn-contact-three {
+.main-third .card-container .card1 .card1-container .plans-container .third-btn-contact-three {
   margin-top: 27px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.third-btn-contact-three a {
+.main-third .card-container .card1 .card1-container .plans-container .third-btn-contact-three a {
   background-color: #3C72FF;
   border: 1px solid transparent;
   padding: 10px 92px;
@@ -236,7 +211,7 @@
   font-size: 24px;
   line-height: 28.18px;
 }
-.third-btn-contact-three :hover {
+.main-third .card-container .card1 .card1-container .plans-container .third-btn-contact-three :hover {
   color: #3C72FF;
   border: 1px solid #3C72FF;
   background-color: transparent;

@@ -2,8 +2,7 @@
 body {
   margin: 0;
 }
-
-.main-first {
+body .main-first {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17,30 +16,12 @@ body {
   margin: 0 auto;
   padding-top: 15vh;
 }
-
-.hello-right {
+body .main-first .hello-right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-
-@media (max-width: 1120px) {
-  .hello-right img {
-    display: none;
-  }
-  .main-first {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-}
-.hello-left {
+body .main-first .hello-left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -49,15 +30,32 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-
-.btns-first {
+body .main-first .hello-left .daltter-main {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 79.34px;
+  color: #1F2D49;
+}
+body .main-first .hello-left .daltter-main .daltter-text {
+  color: #3C72FF;
+  font-style: italic;
+  font-weight: 800;
+}
+body .main-first .hello-left .email-main {
+  margin-bottom: 29px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 21.68px;
+}
+body .main-first .hello-left .btns-first {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 1rem;
 }
-
-.transparent-btn-try .try-for-free {
+body .main-first .hello-left .btns-first .transparent-btn-try .try-for-free {
   display: inline-block;
   border: 1px solid transparent;
   background: #3C72FF;
@@ -69,13 +67,12 @@ body {
   font-size: 24px;
   line-height: 28.18px;
 }
-.transparent-btn-try :hover {
+body .main-first .hello-left .btns-first .transparent-btn-try :hover {
   color: #3C72FF;
   border: 1px solid #3C72FF;
   background-color: transparent;
 }
-
-.features {
+body .main-first .hello-left .btns-first .features {
   display: inline-block;
   background: #E4ECFF;
   color: #3C72FF;
@@ -86,30 +83,7 @@ body {
   font-size: 24px;
   line-height: 28.18px;
 }
-
-.daltter-main {
-  margin-top: 0;
-  margin-bottom: 12px;
-  font-weight: 700;
-  font-size: 76px;
-  line-height: 79.34px;
-  color: #1F2D49;
-}
-
-.email-main {
-  margin-bottom: 29px;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 21.68px;
-}
-
-.daltter-text {
-  color: #3C72FF;
-  font-style: italic;
-  font-weight: 800;
-}
-
-.main-second {
+body .main-second {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -121,30 +95,12 @@ body {
   margin: 0 auto;
   margin-top: 180px;
 }
-
-.second-left {
+body .main-second .second-left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-
-@media (max-width: 1120px) {
-  .second-left img {
-    display: none;
-  }
-  .main-second {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-}
-.second-right {
+body .main-second .second-right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -156,12 +112,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.second-right span {
-  color: #3C72FF;
-  font-style: italic;
-}
-
-.second-main {
+body .main-second .second-right .second-main {
   margin: 0;
   color: #1F2D49;
   margin-bottom: 12px;
@@ -169,15 +120,17 @@ body {
   font-size: 64px;
   line-height: 66.82px;
 }
-
-.second-text {
+body .main-second .second-right .second-main span {
+  color: #3C72FF;
+  font-style: italic;
+}
+body .main-second .second-right .second-text {
   margin: 0;
   font-weight: 600;
   font-size: 20px;
   line-height: 22.98px;
 }
-
-.second-btn .second-try-button {
+body .main-second .second-right .second-btn .second-try-button {
   margin-top: 22px;
   display: inline-block;
   background: #3C72FF;
@@ -190,13 +143,12 @@ body {
   font-size: 24px;
   line-height: 28.18px;
 }
-.second-btn :hover {
+body .main-second .second-right .second-btn :hover {
   color: #3C72FF;
   border: 1px solid #3C72FF;
   background-color: transparent;
 }
-
-.main-fourth {
+body .main-fourth {
   margin-top: 172px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -212,53 +164,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.main-fourth h1 {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 41.76px;
-}
-.main-fourth p {
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 41.76px;
-}
-
-@media (max-width: 1120px) {
-  .main-fourth {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .main-fourth .leave-email {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .main-fourth h1 {
-    text-align: center;
-  }
-}
-.leave-email {
+body .main-fourth .leave-email {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -272,8 +178,33 @@ body {
           align-items: center;
   gap: 21px;
 }
-
-.email-address {
+body .main-fourth .leave-email p {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 41.76px;
+}
+body .main-fourth .leave-email .email-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body .main-fourth .leave-email .email-input a {
+  color: #fff;
+  text-decoration: none;
+  background: #779DFF;
+  border-top-right-radius: 27px;
+  border-bottom-right-radius: 27px;
+  padding: 1rem 1.5rem;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 37.58px;
+  font-family: "Inter", sans-serif;
+}
+body .main-fourth .leave-email .email-input .email-address {
   background-color: #E4ECFF;
   border-top-left-radius: 27px;
   border-bottom-left-radius: 27px;
@@ -285,25 +216,76 @@ body {
   color: rgba(0, 0, 0, 0.476);
   outline: none;
 }
-
-.email-input {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+body .main-fourth h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 41.76px;
 }
-.email-input a {
-  color: #fff;
-  text-decoration: none;
-  background: #779DFF;
-  border-top-right-radius: 27px;
-  border-bottom-right-radius: 27px;
-  padding: 1rem 1.5rem;
-  font-weight: 900;
-  font-size: 36px;
-  line-height: 37.58px;
-  font-family: "Inter", sans-serif;
+
+@media (max-width: 1120px) {
+  body .main-first {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .main-first .hello-right img {
+    display: none;
+  }
+}
+@media (max-width: 1120px) {
+  body .main-second {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .main-second .second-left img {
+    display: none;
+  }
+}
+@media (max-width: 1120px) {
+  body .main-fourth {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .main-fourth .leave-email {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .main-fourth h1 {
+    text-align: center;
+  }
 }
