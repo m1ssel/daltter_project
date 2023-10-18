@@ -1,7 +1,7 @@
 import './header.css';
 import { Routes, Route, Link } from "react-router-dom";
-import { Login } from "../../pages/login/Login";
-import { SignUp } from "../../pages/signup/SignUp";
+import { Login } from "../../../pages/login/Login";
+import { SignUp } from "../../../pages/signup/SignUp";
 
 function Header() {
     return (

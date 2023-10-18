@@ -17,8 +17,7 @@
   border-top: 1px solid rgba(82, 128, 198, 0.12);
   height: 213px;
 }
-
-.logo-footer {
+.footer .logo-footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -27,28 +26,26 @@
           align-items: center;
   margin-bottom: 22px;
 }
-.logo-footer p {
+.footer .logo-footer p {
   margin-left: 1rem;
   font-weight: 700;
   font-size: 20px;
   line-height: 23.48px;
 }
-
-.footer-links {
+.footer .footer-links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 1rem;
   margin-bottom: 50px;
 }
-.footer-links a {
+.footer .footer-links .line {
+  border-right: 1px solid rgba(0, 0, 0, 0.5411764706);
+}
+.footer .footer-links a {
   text-decoration: none;
   font-weight: 500;
   font-size: 24px;
   line-height: 28.18px;
   color: rgba(0, 0, 0, 0.5019607843);
-}
-
-.line {
-  border-right: 1px solid rgba(0, 0, 0, 0.5411764706);
 }

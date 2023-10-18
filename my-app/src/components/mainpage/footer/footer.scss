@@ -1,0 +1,40 @@
+@import '/src/css/styles.css';
+
+@mixin def($f, $a, $b){
+    font-weight: $f;
+    font-size: $a;
+    line-height: $b;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 180px;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(82,128,198,.12);
+    height: 213px;
+    & .logo-footer {
+        display: flex;
+        align-items: center;
+        margin-bottom: 22px;
+        & p {
+            margin-left: 1rem;
+            @include def(700, 20px, 23.48px)
+        }
+    }
+    & .footer-links {
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 50px;
+        & .line {
+            border-right: 1px solid #0000008a;
+        }
+        & a{
+            text-decoration: none;
+            @include def(500, 24px, 28.18px);
+            color: #00000080;
+        }
+    }
+}
+

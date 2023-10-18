@@ -1,46 +1,4 @@
 @import '/src/css/styles.css';
-.logo-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 15px 0;
-}
-.logo-header .link_header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-decoration: none;
-}
-.logo-header .link_header div {
-  text-decoration: none;
-  margin-left: 1rem;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 23.48px;
-  color: #000;
-}
-
-.links-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 55px;
-}
-.links-header a {
-  color: black;
-  text-decoration: none;
-  text-align: center;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 23.48px;
-}
-
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -51,8 +9,22 @@ header {
   top: 0;
   background-color: #fff;
 }
-
-.header {
+@media (max-width: 1120px) {
+  header .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .header .links-header {
+    display: none;
+  }
+}
+header .header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -66,23 +38,47 @@ header {
           align-items: center;
   width: 100%;
 }
-
-@media (max-width: 1120px) {
-  .header {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .header .links-header {
-    display: none;
-  }
+header .header .logo-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 0;
 }
-.buttons-header {
+header .header .logo-header .link_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+header .header .logo-header .link_header div {
+  text-decoration: none;
+  margin-left: 1rem;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23.48px;
+  color: #000;
+}
+header .header .links-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 55px;
+}
+header .header .links-header a {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23.48px;
+}
+header .header .buttons-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -91,8 +87,7 @@ header {
       -ms-flex-align: center;
           align-items: center;
 }
-
-.btn-login {
+header .header .buttons-header .btn-login {
   display: inline-block;
   background: #E4ECFF;
   color: #3C72FF;
@@ -103,8 +98,7 @@ header {
   font-size: 16px;
   line-height: 18.78px;
 }
-
-.button-header-signup .btn-sign {
+header .header .buttons-header .button-header-signup .btn-sign {
   display: inline-block;
   background: #3C72FF;
   border: 1px solid transparent;
@@ -116,7 +110,7 @@ header {
   font-size: 16px;
   line-height: 18.78px;
 }
-.button-header-signup :hover {
+header .header .buttons-header .button-header-signup :hover {
   color: #3C72FF;
   border: 1px solid #3C72FF;
   background-color: transparent;
