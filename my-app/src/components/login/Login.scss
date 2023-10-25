@@ -145,3 +145,15 @@ body{
         }
     }
 }
+
+@media (max-width:650px) {
+    body {
+        .container-login{
+            .footer-login{
+                width: 88%;
+                position: fixed;
+                bottom: 0;
+            }
+        }
+    }
+}

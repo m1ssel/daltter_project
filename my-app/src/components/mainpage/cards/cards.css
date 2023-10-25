@@ -16,9 +16,8 @@
   font-size: 48px;
   line-height: 50.11px;
   color: #3C72FF;
-  margin-top: 197px;
-  margin-bottom: 0;
-  text-align: center;
+  margin: 197px auto 0px auto;
+  max-width: 631px;
 }
 .main-third .card-container {
   margin-top: 80px;
@@ -215,4 +214,18 @@
   color: #3C72FF;
   border: 1px solid #3C72FF;
   background-color: transparent;
+}
+
+@media (max-width: 650px) {
+  .main-third h1 {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    text-align: center;
+    margin: 197px 15px 0px 15px;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 42.11px;
+  }
 }

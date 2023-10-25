@@ -25,9 +25,9 @@ function Service() {
                 <img src="/src/img/Second-leftservice-left.png" alt="image" />
             </div>
             <div className="second-right">
-                <h1 className='second-main'>Our <span>service</span> is fully <br/> automated</h1>
-                <p className='second-text'>All you need is just few clicks - and your clients <br/> will be in your hands.
-                Forget about tens different <br/> services for one ad.</p>
+                <h1 className='second-main'><div className='second-subtext'>Our <span> service </span> is </div> fully automated</h1>
+                <p className='second-text'>All you need is just few clicks - and your clients will be in your hands.
+                Forget about tens different services for one ad.</p>
                 <div className="second-btn"><a href="#" className='second-try-button'>Try it now</a></div>
             </div>
         </div>
@@ -52,7 +52,7 @@ function Contact() {
 function Card() {
     return (
         <div className="main-third">
-            <h1>We have several different <br/> plans to suit all customers:</h1>
+            <h1>We have several different plans to suit all customers:</h1>
             <div className="card-container">
                 <Cards  
                     Title = "Standart"

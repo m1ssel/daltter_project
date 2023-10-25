@@ -115,4 +115,7 @@ header .header .buttons-header .button-header-signup :hover {
   header .header .links-header {
     display: none;
   }
+  header .header .buttons-header .button-header-signup {
+    display: none;
+  }
 }

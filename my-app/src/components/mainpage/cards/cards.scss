@@ -13,9 +13,8 @@
     & h1{
         @include def(800, 48px, 50.11px);
         color: #3C72FF;
-        margin-top: 197px;
-        margin-bottom: 0;
-        text-align: center;
+        margin: 197px auto 0px auto;
+        max-width: 631px;
     }
     & .card-container{
         margin-top: 80px;
@@ -163,7 +162,16 @@
 
 
 
-
+@media (max-width:650px) {
+    .main-third {
+        h1 {
+            flex-direction: row;
+            text-align: center;
+            margin: 197px 15px 0px 15px;
+            @include def(800, 40px, 42.11px);
+        }
+    }
+}
 
 
 

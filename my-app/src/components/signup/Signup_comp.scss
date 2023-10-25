@@ -183,3 +183,14 @@ body{
 
 
 
+@media (max-width:650px) {
+    body {
+        .container-signup{
+            .footer-signup{
+                width: 88%;
+                position: fixed;
+                bottom: 0;
+            }
+        }
+    }
+}

@@ -243,3 +243,11 @@ body .container-signup .footer-signup .footer-container a {
   line-height: 20.88px;
   color: rgba(0, 0, 0, 0.35);
 }
+
+@media (max-width: 650px) {
+  body .container-signup .footer-signup {
+    width: 88%;
+    position: fixed;
+    bottom: 0;
+  }
+}
