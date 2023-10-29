@@ -2,7 +2,7 @@ body {
   height: 100%;
 }
 body .container-signup {
-  min-height: 100%;
+  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10,6 +10,7 @@ body .container-signup {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  overflow: hidden;
 }
 body .container-signup .header-login {
   display: -webkit-box;
@@ -152,7 +153,7 @@ body .container-signup .main-signup .main-signup-container .signup-container .si
   line-height: 28.18px;
   color: #fff;
   background: #3C72FF;
-  padding: 12px 150px;
+  padding: 11px 150px;
   border-radius: 17px;
   text-decoration: none;
 }
@@ -216,10 +217,9 @@ body .container-signup .footer-signup {
       -ms-flex-pack: center;
           justify-content: center;
   border-top: 1px solid rgba(82, 128, 198, 0.12);
-  bottom: 0;
   height: 80px;
-  position: fixed;
   width: 100%;
+  margin-top: auto;
 }
 body .container-signup .footer-signup .footer-container {
   display: -webkit-box;
@@ -245,9 +245,14 @@ body .container-signup .footer-signup .footer-container a {
 }
 
 @media (max-width: 650px) {
-  body .container-signup .footer-signup {
-    width: 88%;
-    position: fixed;
-    bottom: 0;
+  body .container-signup .main-signup .main-signup-container .signup-container {
+    width: 350px;
+  }
+  body .container-signup .main-signup .main-signup-container .signup-container input {
+    width: 290px;
+    height: 51px;
+  }
+  body .container-signup .main-signup .main-signup-container .signup-container .signup-btn-container .signup-btn {
+    padding: 11px 113px;
   }
 }

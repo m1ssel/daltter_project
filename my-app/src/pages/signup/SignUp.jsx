@@ -8,19 +8,19 @@ const SignUp = () => {
     return (
         <div className="container-signup">
             
-        <Signup_header
-            Signup_title = "daltter"
-            Signup_login_btn = "Login"
-        />
-        
-        <Signup_main
-            Signup_btn = "Sign Up"
-            Back_btn = "Go back"
-        />
-        
-        <Signup_footer
-            Footer_text = "Already have an account?"
-        />
+            <Signup_header
+                Signup_title = "daltter"
+                Signup_login_btn = "Login"
+            />
+            
+            <Signup_main
+                Signup_btn = "Sign Up"
+                Back_btn = "Go back"
+            />
+            
+            <Signup_footer
+                Footer_text = "Already have an account?"
+            />
             
         </div>
     )

@@ -7,7 +7,7 @@
 body{
     height: 100%;
     & .container-login{
-        min-height: 100%;
+        min-height: 100vh;
         display: flex;
         flex-direction: column;
         & .header-login {
@@ -126,10 +126,9 @@ body{
             display: flex;
             justify-content: center;
             border-top: 1px solid rgba(82,128,198,.12);
-            bottom: 0;
             height: 80px;
-            position: fixed;
             width: 100%;
+            margin-top: auto;
             & .footer-container {
                 display: flex;
                 justify-content: center;
@@ -149,10 +148,26 @@ body{
 @media (max-width:650px) {
     body {
         .container-login{
+            overflow: hidden;
+            display: flex;
+            .main-login{
+                .main-login-container{
+                    .login-container{
+                        width: 350px;
+                        & input {
+                            width: 290px;
+                            height: 51px;
+                        }
+                        & .login-btn-container {
+                            margin-bottom: 24px;
+                            .login-btn {
+                                padding: 11px 125px;
+                            }
+                        }
+                    }
+                }
+            }
             .footer-login{
-                width: 88%;
-                position: fixed;
-                bottom: 0;
             }
         }
     }
