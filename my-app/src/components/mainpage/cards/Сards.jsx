@@ -1,47 +1,5 @@
 import './cards.css';
 
-// function CardDescLine(props) {
-//     return (
-//         <>
-//             <div className='third-text'>
-//                 <img src="/src/img/true.png" alt="v" />
-//                 <p>Without queues</p>
-//             </div>
-//             <div className='third-text'>
-//                 <img src="/src/img/true.png" alt="v" />
-//                 <p>Detailed statistics</p>
-//             </div>
-//             <div className='third-text'>
-//                 <img src="/src/img/true.png" alt="v" />
-//                 <p>Guarantee</p>
-//             </div>
-//             <div className='third-text'>
-//                 <img src={props.Img} alt="x" className={props.Class}/>
-//                 <p>Customization</p>
-//             </div>
-//             <div className='third-text'>
-//                 <img src={props.Img} alt="x" className={props.Class}/>
-//                 <p>Clients-filters</p>
-//             </div>
-//         </>
-//     )
-// }
-
-// function CardDesc(props) {
-//     const {type} = props;
-//     return (
-        // <div className={type === "1" ? "preferences" : "preferences preferences-three"}>
-        //     {type === "1" ? (
-        //         <CardDescLine />
-        //         ) : (
-        //         <div className='third-card-text'>
-        //             *Personal plan created for big companies and special clients,
-        //             who want different conditions or bigger amounts of ads
-        //         </div>
-        //         )}
-        // </div>
-//     )
-// }
 
 function Cards(props) {
     return (

@@ -14,9 +14,9 @@ function Header() {
                     </Link>
                 </div>
                 <div className="links-header">
-                    <a href="#">Features</a>
-                    <a href="#">Pricing</a>
-                    <a href="#">Contact Us</a>
+                    <a href="https://youtu.be/LDU_Txk06tM?t=73" target='_blank'>Features</a>
+                    <a href="https://youtu.be/LDU_Txk06tM?t=73" target='_blank'>Pricing</a>
+                    <a href="https://youtu.be/LDU_Txk06tM?t=73" target='_blank'>Contact Us</a>
                 </div>
                 <div className="buttons-header">
                     <Link to="/login" className='btn-login'>Login</Link>
