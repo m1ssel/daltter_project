@@ -1,4 +1,4 @@
-@import '/src/css/styles.css';
+@import "/src/css/styles.css";
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -63,6 +63,18 @@ header .header .links-header a {
   font-size: 20px;
   line-height: 23.48px;
 }
+header .header .links-header button {
+  color: black;
+  background: #fff;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23.48px;
+}
 header .header .buttons-header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -74,8 +86,8 @@ header .header .buttons-header {
 }
 header .header .buttons-header .btn-login {
   display: inline-block;
-  background: #E4ECFF;
-  color: #3C72FF;
+  background: #e4ecff;
+  color: #3c72ff;
   padding: 0.6rem 1.7rem;
   text-decoration: none;
   border-radius: 17px;
@@ -85,7 +97,7 @@ header .header .buttons-header .btn-login {
 }
 header .header .buttons-header .button-header-signup .btn-sign {
   display: inline-block;
-  background: #3C72FF;
+  background: #3c72ff;
   border: 1px solid transparent;
   color: #fff;
   padding: 0.6rem 1.8rem;
@@ -96,8 +108,8 @@ header .header .buttons-header .button-header-signup .btn-sign {
   line-height: 18.78px;
 }
 header .header .buttons-header .button-header-signup :hover {
-  color: #3C72FF;
-  border: 1px solid #3C72FF;
+  color: #3c72ff;
+  border: 1px solid #3c72ff;
   background-color: transparent;
 }
 

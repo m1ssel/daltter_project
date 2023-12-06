@@ -1,4 +1,4 @@
-@import '/src/css/styles.css';
+@import "/src/css/styles.css";
 .main-third {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -15,7 +15,7 @@
   font-weight: 800;
   font-size: 48px;
   line-height: 50.11px;
-  color: #3C72FF;
+  color: #3c72ff;
   margin: 197px auto 0px auto;
   max-width: 631px;
 }
@@ -48,7 +48,7 @@
   margin-top: 15px;
   width: 351px;
   height: 452px;
-  background-color: #E4ECFF;
+  background-color: #e4ecff;
   border-radius: 48px;
   text-align: center;
 }
@@ -122,7 +122,7 @@
   display: flex;
 }
 .main-third .card-container .card1 .card1-container .plans-container .third-btn-try a {
-  background-color: #3C72FF;
+  background-color: #3c72ff;
   border: 1px solid transparent;
   border-radius: 48px;
   padding: 10px 92px;
@@ -133,8 +133,8 @@
   line-height: 28.18px;
 }
 .main-third .card-container .card1 .card1-container .plans-container .third-btn-try :hover {
-  color: #3C72FF;
-  border: 1px solid #3C72FF;
+  color: #3c72ff;
+  border: 1px solid #3c72ff;
   background-color: transparent;
 }
 .main-third .card-container .card1 .card1-container .plans-container .price-addit {
@@ -155,7 +155,7 @@
   font-size: 20px;
   line-height: 20.88px;
   text-decoration: line-through;
-  color: #7A8AA9;
+  color: #7a8aa9;
   margin: 0;
 }
 .main-third .card-container .card1 .card1-container .plans-container .price-addit .price-percent {
@@ -163,8 +163,8 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 16.7px;
-  color: #67799E;
-  background-color: #BDC9E7;
+  color: #67799e;
+  background-color: #bdc9e7;
   padding: 0.2rem;
   border-radius: 20px;
   margin: 0;
@@ -185,13 +185,13 @@
   font-family: "Inter";
   font-size: 20px;
   font-weight: 700;
-  color: #1F2D49;
+  color: #1f2d49;
 }
 .main-third .card-container .card1 .card1-container .plans-container .price-main .text-2 {
   font-family: "Inter";
   font-size: 40px;
   font-weight: 700;
-  color: #1F2D49;
+  color: #1f2d49;
 }
 .main-third .card-container .card1 .card1-container .plans-container .third-btn-contact-three {
   margin-top: 27px;
@@ -200,7 +200,7 @@
   display: flex;
 }
 .main-third .card-container .card1 .card1-container .plans-container .third-btn-contact-three a {
-  background-color: #3C72FF;
+  background-color: #3c72ff;
   border: 1px solid transparent;
   padding: 10px 92px;
   border-radius: 48px;
@@ -211,9 +211,21 @@
   line-height: 28.18px;
 }
 .main-third .card-container .card1 .card1-container .plans-container .third-btn-contact-three :hover {
-  color: #3C72FF;
-  border: 1px solid #3C72FF;
+  color: #3c72ff;
+  border: 1px solid #3c72ff;
   background-color: transparent;
+}
+.main-third .card-container .card1 .card1-container .plans-container .third-btn-contact-three button {
+  background-color: #3c72ff;
+  border: 1px solid transparent;
+  padding: 10px 92px;
+  border-radius: 48px;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.18px;
 }
 
 @media (max-width: 650px) {
